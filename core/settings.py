@@ -37,6 +37,8 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 ]
 PROJECT_APPS = [
+    'apps.blog',
+    'apps.category'
 ]
 THIRD_PARTY_APPS = [
     'corsheaders',
